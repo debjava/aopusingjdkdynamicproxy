@@ -7,7 +7,7 @@ public interface Calculator {
     
     /**
      * Calculate.
-     *
+     * 
      * @param a the a
      * @param b the b
      * @return the int
