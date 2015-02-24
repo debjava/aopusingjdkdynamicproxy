@@ -1,9 +1,9 @@
-
 package com.ddlab.rnd.beans;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class CalculatorImpl.
+ *
+ * @author Debadatta Mishra
  */
 public class CalculatorImpl implements Calculator {
 

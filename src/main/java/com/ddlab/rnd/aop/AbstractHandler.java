@@ -2,9 +2,10 @@ package com.ddlab.rnd.aop;
 
 import java.lang.reflect.InvocationHandler;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class AbstractHandler.
+ * The Class AbstractHandler provides a simple wrapper for our own aop.
+ *
+ * @author Debadatta Mishra
  */
 public abstract class AbstractHandler implements InvocationHandler {
 

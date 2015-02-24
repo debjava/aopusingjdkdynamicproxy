@@ -4,9 +4,11 @@ import java.lang.reflect.Method;
 
 import com.ddlab.rnd.aop.AfterHandler;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class AfterHandlerImpl.
+ * The Class AfterHandlerImpl provides an implementation of business logic which
+ * will be executed after the actual method execution.
+ *
+ * @author Debadatta Mishra
  */
 public class AfterHandlerImpl extends AfterHandler {
 
@@ -15,7 +17,7 @@ public class AfterHandlerImpl extends AfterHandler {
 	 */
 	@Override
 	public void handleAfter(Object proxy, Method method, Object[] args) {
-		
+		//Provide your own cross cutting concern
 		System.out.println("Handling after actual method execution ........");
 	}
 

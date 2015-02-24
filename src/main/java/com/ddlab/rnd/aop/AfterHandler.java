@@ -2,14 +2,15 @@ package com.ddlab.rnd.aop;
 
 import java.lang.reflect.Method;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class AfterHandler.
+ * The Class AfterHandler provides a template for After concern.
+ *
+ * @author Debadatta Mishra
  */
 public abstract class AfterHandler extends AbstractHandler {
 
 	/**
-	 * Handle after.
+	 * Handles after the execution of method.
 	 *
 	 * @param proxy the proxy
 	 * @param method the method

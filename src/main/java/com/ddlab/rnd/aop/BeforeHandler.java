@@ -2,14 +2,15 @@ package com.ddlab.rnd.aop;
 
 import java.lang.reflect.Method;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class BeforeHandler.
+ * The Class BeforeHandler provides a template for the before execution
+ *
+ * @author Debadatta Mishra
  */
 public abstract class BeforeHandler extends AbstractHandler {
 
 	/**
-	 * Handle before.
+	 * Handles before execution of actual method.
 	 *
 	 * @param proxy the proxy
 	 * @param method the method

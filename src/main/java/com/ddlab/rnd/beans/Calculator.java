@@ -2,12 +2,14 @@ package com.ddlab.rnd.beans;
 
 /**
  * The Interface Calculator.
+ *
+ * @author Debadatta Mishra
  */
 public interface Calculator {
     
     /**
-     * Method to calculate.
-     * 
+     * Calculate.
+     *
      * @param a the a
      * @param b the b
      * @return the int

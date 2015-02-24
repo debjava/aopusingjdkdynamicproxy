@@ -4,9 +4,11 @@ import java.lang.reflect.Method;
 
 import com.ddlab.rnd.aop.BeforeHandler;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class BeforeHandlerImpl.
+ * The Class BeforeHandlerImpl provides implementation before
+ * actual execution of method.
+ *
+ * @author Debadatta Mishra
  */
 public class BeforeHandlerImpl extends BeforeHandler {
 
@@ -15,8 +17,7 @@ public class BeforeHandlerImpl extends BeforeHandler {
 	 */
 	@Override
 	public void handleBefore(Object proxy, Method method, Object[] args) {
-		
+		//Provide your own cross cutting concern
 		System.out.println("Handling before actual method execution ........");
 	}
-
 }
