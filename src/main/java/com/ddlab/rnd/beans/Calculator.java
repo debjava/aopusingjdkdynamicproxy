@@ -6,7 +6,7 @@ package com.ddlab.rnd.beans;
 public interface Calculator {
     
     /**
-     * Calculate.
+     * Method to calculate.
      * 
      * @param a the a
      * @param b the b
